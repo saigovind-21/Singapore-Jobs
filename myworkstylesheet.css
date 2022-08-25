@@ -127,6 +127,9 @@ ul li a:hover {
   }
 
   ul {
+    padding-left: 50px;
+  }
+  ul {
     position: fixed;
     left: -50%;
     width: 50%;
@@ -136,16 +139,6 @@ ul li a:hover {
 
     text-align: center;
     transition: all 0.5s;
-  }
-
-  ul li {
-    border-style: solid;
-    border-radius: 100%;
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-color: gray;
-    line-height: 50px;
   }
 
   nav ul li {
@@ -172,53 +165,39 @@ ul li a:hover {
 
 .div-1 {
   position: fixed;
-  background-color: #e6e6fa;
-  width: 300px;
-  display: flex;
-  align-items: center;
-  padding-left: 50px;
+  width: 400px;
   height: 300px;
-  text-align: center;
-  margin-top: 80px;
-  margin-left: 350px;
-  border-radius: 10px;
-}
-
-.title-1 {
-  position: fixed;
-  padding-bottom: 210px;
-  margin-left: -30px;
-}
-
-.ruleline {
-  position: fixed;
-  width: 315px;
+  background-color: #e8e8e8;
+  margin: 120px;
+  border-style: solid 0px;
+  border-color: none;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px 0px;
   margin-bottom: 150px;
-  margin-left: -35px;
-  background-color: #36454f;
 }
 
-.posted-1 {
-  padding-right: 120px;
-}
-
-.div-2 {
+.points-1 {
   position: fixed;
-  width: 330px;
-  height: 300px;
-  background-color: #e6e6fa;
-  position: relative;
-  margin-left: 50%;
-  margin-top: 80px;
-  border-radius: 10px;
+  float: left;
+  margin-top: -330px;
+  margin-left: 150px;
 }
 
- {
-  color: gray;
-  border-style: solid;
-  border-top: 2px;
-  width: 345px;
-  margin-left: 350px;
-  margin-top: 80px;
-  position: absolute;
+.points-1 ul {
+  position: relative;
+  margin-top: 550px;
 }
+
+.points-1 li {
+  position: relative;
+  display: block;
+  line-height: 60px;
+}
+
+.line-1 {
+  position: fixed;
+  width: 200px;
+  margin-top: 150px;
+  margin-left: 250px;
+}
+
